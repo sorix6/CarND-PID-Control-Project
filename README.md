@@ -9,6 +9,7 @@ The purpose of the project is to implement a PID Controller that will be able to
 1. Initialize the PID with values for the tunning constants Kp, Ki and Kd that allow the vehicle to correctly drive around the track
    - The correct values for the tunning constants have been selected through trial and error method
    - Below are some of the tested values, in ascending order from worst to best (comments on each set of settings are made with respect to previous line of settings):
+   
    | Kp | Ki | Kd | Result |
    | -- | -- | -- | -- |
    | 1.00 | 0.00 | 0.00 | a lot of oversteering, car eventually leaves the track |
