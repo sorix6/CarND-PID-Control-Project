@@ -30,7 +30,7 @@ The purpose of the project is to implement a PID Controller that will be able to
 * Kp - the proportional term 
   - Deals with how far the vehicle is from its target(the center of the road) and how hard does it need to steer back in order to reach that target
   - Setting a large value makes the car oscilate a lot on the road
-  - It need to be counter balanced by the Kd 
+  - It needs to be counter-balanced by the Kd term
 
 * Ki - the integral term
   - Deals with the fact that the vehicle might pull to the left of to the right, due to wheels not being pefectly aligned
