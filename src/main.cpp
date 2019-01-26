@@ -37,9 +37,24 @@ int main(int argc, char *argv[]) {
   /**
    * TODO: Initialize the pid variable.
    */
-  double init_Kp = atof(argv[1]);
-  double init_Ki = atof(argv[2]);
-  double init_Kd = atof(argv[3]);
+  double init_Kp;
+  double init_Ki;
+  double init_Kd;
+
+  if (argc == 1){
+    // values determined through multiple trial and error
+    init_Kp = 0.1;
+    init_Ki = 0.0;
+    init_Kd = 1.5;
+  }
+  else{
+    // get values through console
+    // used to test different settings
+    init_Kp = atof(argv[1]);
+    init_Ki = atof(argv[2]);
+    init_Kd = atof(argv[3]);
+  }
+  
 
   pid.Init(init_Kp, init_Ki, init_Kd);
 
