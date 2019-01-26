@@ -23,7 +23,7 @@ The purpose of the project is to implement a PID Controller that will be able to
 
 2. Calculate the steering value
    - The steering value has been computed using the following formula:
-   [PID mathematical formula](https://raw.githubusercontent.com/sorix6/CarND-PID-Control-Project/master/images/PID_formula.JPG)
+   ![PID mathematical formula](https://raw.githubusercontent.com/sorix6/CarND-PID-Control-Project/master/images/PID_formula.JPG)
 
 ### Influence of tunning constants on the vehicle behaviour
 
